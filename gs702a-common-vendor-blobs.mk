@@ -91,6 +91,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/system/etc/game_r2:system/etc/game_r2 \
     $(LOCAL_PATH)/system/etc/game_r3:system/etc/game_r3 \
+    $(LOCAL_PATH)/system/etc/gpu_config:system/etc/gpu_config \
     $(LOCAL_PATH)/system/lib/egl/libEGL_VIVANTE.so:system/lib/egl/libEGL_VIVANTE.so \
     $(LOCAL_PATH)/system/lib/egl/libGLESv1_CM_VIVANTE.so:system/lib/egl/libGLESv1_CM_VIVANTE.so \
     $(LOCAL_PATH)/system/lib/egl/libGLESv2_VIVANTE.so:system/lib/egl/libGLESv2_VIVANTE.so \
