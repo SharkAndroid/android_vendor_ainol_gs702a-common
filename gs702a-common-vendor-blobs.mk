@@ -15,15 +15,9 @@
 
 LOCAL_PATH := vendor/ainol/gs702a-common/proprietary
 
-# Actions Hardware
+# Actions Busybox for h/w clock sync
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/system/framework/actions.jar:system/framework/actions.jar \
-    $(LOCAL_PATH)/system/lib/libactions_runtime.so:system/lib/libactions_runtime.so
-
-# Actions PerformancePolicy
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/system/app/performancepolicy.apk:system/app/performancepolicy.apk \
-    $(LOCAL_PATH)/system/lib/libperformance.so:system/lib/libperformance.so
+    $(LOCAL_PATH)/system/xbin/busybox_act:system/xbin/busybox_act
 
 # Codecs of Audio,Camera,Display,HDMI,Video
 PRODUCT_COPY_FILES += \
