@@ -64,7 +64,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/system/lib/libACT_ISP.so:system/lib/libACT_ISP.so \
     $(LOCAL_PATH)/system/lib/libACT_V4L2HAL.so:system/lib/libACT_V4L2HAL.so \
     $(LOCAL_PATH)/system/lib/libbacklight.so:system/lib/libbacklight.so \
-    $(LOCAL_PATH)/system/lib/libbcam_module.so:system/lib/libbacklight.so \
+    $(LOCAL_PATH)/system/lib/libbcam_module.so:system/lib/libbcam_module.so \
     $(LOCAL_PATH)/system/lib/libimg_en.so:system/lib/libimg_en.so \
     $(LOCAL_PATH)/system/lib/libsub.so:system/lib/libsub.so \
     $(LOCAL_PATH)/system/lib/libvde_core.so:system/lib/libvde_core.so \
