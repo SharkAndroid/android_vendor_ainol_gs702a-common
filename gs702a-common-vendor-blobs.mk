@@ -63,6 +63,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/system/lib/libACT_FD.so:system/lib/libACT_FD.so \
     $(LOCAL_PATH)/system/lib/libACT_ISP.so:system/lib/libACT_ISP.so \
     $(LOCAL_PATH)/system/lib/libACT_V4L2HAL.so:system/lib/libACT_V4L2HAL.so \
+    $(LOCAL_PATH)/system/lib/libactions-ril.so:system/lib/libactions-ril.so \
     $(LOCAL_PATH)/system/lib/libbacklight.so:system/lib/libbacklight.so \
     $(LOCAL_PATH)/system/lib/libbcam_module.so:system/lib/libbcam_module.so \
     $(LOCAL_PATH)/system/lib/libimg_en.so:system/lib/libimg_en.so \
@@ -109,3 +110,9 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/system/lib/libOMX.Action.Video.Encoder.so:system/lib/libOMX.Action.Video.Encoder.so \
     $(LOCAL_PATH)/system/lib/libOMX_Core.so:system/lib/libOMX_Core.so \
     $(LOCAL_PATH)/system/lib/libstagefrighthw.so:system/lib/libstagefrighthw.so
+
+# USB
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/system/bin/usbmond:system/bin/usbmond \
+    $(LOCAL_PATH)/system/xbin/usb_modeswitch:system/xbin/usb_modeswitch \
+    $(call find-copy-subdir-files, *, vendor/ainol/gs702a-common/proprietary/system/etc/usb_modeswitch.d, system/etc/usb_modeswitch.d)
