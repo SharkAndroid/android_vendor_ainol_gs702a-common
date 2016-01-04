@@ -115,4 +115,4 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/system/bin/usbmond:system/bin/usbmond \
     $(LOCAL_PATH)/system/xbin/usb_modeswitch:system/xbin/usb_modeswitch \
-    $(call find-copy-subdir-files, *, vendor/ainol/gs702a-common/proprietary/system/etc/usb_modeswitch.d, system/etc/usb_modeswitch.d)
+    $(call find-copy-subdir-files,*,vendor/ainol/gs702a-common/proprietary/system/etc/usb_modeswitch.d,system/etc/usb_modeswitch.d)
